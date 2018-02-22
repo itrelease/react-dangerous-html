@@ -1,0 +1,20 @@
+{
+  "name": "react-dangerous-html",
+  "version": "0.0.1",
+  "description": "DangerousHTML component that evaluates script tags",
+  "keywords": [
+    "react",
+    "dangerouslySetInnerHTML",
+    "dangerous",
+    "dangerously",
+    "innerhtml",
+    "set",
+    "html",
+    "script",
+    "inner"
+  ],
+  "repository": "itrelease/react-dangerous-html",
+  "peerDependencies": {
+    "react": "*"
+  }
+}
