@@ -1,6 +1,15 @@
 ## What
 React component that allows using script tags in provided html
+
 [![Edit yp79k5l47z](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/yp79k5l47z)
+
+## Why
+Because React strips script tags so it’s problematic to use embeds
+
+[![Edit 2454kxkkon](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2454kxkkon)
+
+## How
+`npm install react-dangerous-html`
 
 
 ```
