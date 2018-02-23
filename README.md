@@ -1,3 +1,8 @@
+## What
+React component that allows using script tags in provided html
+[![Edit yp79k5l47z](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/yp79k5l47z)
+
+
 ```
 import React from 'react';
 import { render } from 'react-dom';
