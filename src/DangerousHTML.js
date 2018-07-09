@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function replaceScriptElementsRecursive(node, acc) {
-  if (node.tagName === 'SCRIPT') {
+  if (node.tagName === 'SCRIPT' && (!node.id || node.id.indexOf('script-') !== 0)) {
     const script = document.createElement('script');
 
     script.id = `script-${Math.random()

@@ -1,6 +1,6 @@
 {
   "name": "react-dangerous-html",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "DangerousHTML component that evaluates script tags",
   "keywords": [
     "react",
@@ -17,7 +17,8 @@
   "repository": "itrelease/react-dangerous-html",
   "peerDependencies": {
     "prop-types": "*",
-    "react": "*"
+    "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
