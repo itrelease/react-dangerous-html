@@ -50,13 +50,15 @@ function removeScriptElements(scriptElements) {
 class DangerousHTML extends React.Component {
   static propTypes = {
     html: PropTypes.string.isRequired,
+    sanitizeAnchor: PropTypes.bool,
     tagName: PropTypes.string,
     className: PropTypes.string
   };
 
   static defaultProps = {
     tagName: 'div',
-    className: ''
+    className: '',
+    sanitizeAnchor: true,
   };
 
   state = {
@@ -120,7 +122,7 @@ class DangerousHTML extends React.Component {
   }
 
   prepareAnchors() {
-    if (!this.element) {
+    if (!this.element || !this.props.sanitizeAnchor) {
       return;
     }
 
